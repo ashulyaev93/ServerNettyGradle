@@ -79,7 +79,7 @@ public final class FileServer {
                  }
              });
 
-            // Start the server.
+            // Start the server
             ChannelFuture f = b.bind(PORT).sync();
 
             // Wait until the server socket is closed.

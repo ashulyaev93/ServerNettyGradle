@@ -47,7 +47,7 @@ public class FileServerHandler extends SimpleChannelInboundHandler<String> {
         RandomAccessFile raf = null;
         long length = -1;
         String action = null;
-        //String fileName = null;
+        //String fileName = null
         //System.out.println(msg);
         try {
             String[] args = msg.split("\\s+");
